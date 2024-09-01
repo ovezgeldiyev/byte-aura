@@ -1,0 +1,307 @@
+// 1440px
+@include xxxxlg-xxxxxlg {
+  h2 {
+    font-size: 100px;
+    &.sm {
+      font-size: 90px;
+    }
+  }
+  @include world-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 90px;
+    &.sm {
+      font-size: 80px;
+    }
+  }
+  @include hero-xxxlg-xxxxlg;
+  @include world-xxxlg-xxxxlg;
+  @include legacy-xxxlg-xxxxlg;
+  @include grant-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 80px;
+    &.sm {
+      font-size: 75px;
+    }
+  }
+  h3 {
+    font-size: 35px;
+  }
+  p {
+    &.xxlg {
+      font-size: 26px;
+    }
+    &.xlg {
+      font-size: 24px;
+    }
+    &.lg {
+      font-size: 20px;
+    }
+  }
+  .lang {
+    padding: 6px;
+    &Head {
+      &__icon {
+        width: 18px;
+        height: 18px;
+      }
+      p {
+        font-size: 14px;
+        margin: 0 5px;
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &Drop {
+      p {
+        font-size: 14px;
+        span {
+          width: 16px;
+          height: 16px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  @include header-xlg-xxlg;
+  @include nav-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include world-xlg-xxlg;
+  @include legacy-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 70px;
+    &.sm {
+      font-size: 65px;
+    }
+  }
+  p {
+    &.xxlg {
+      font-size: 22px;
+    }
+    &.xlg {
+      font-size: 22px;
+    }
+  }
+  .main {
+    padding: 0;
+  }
+  .lang {
+    margin: 0;
+  }
+  .tab {
+    button {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 10px 16px;
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include about-lg-xlg;
+  @include company-lg-xlg;
+  @include info-lg-xlg;
+  @include services-lg-xlg;
+  @include footer-lg-xlg;
+}
+// 930px
+@include md-lg {
+  @include hero-md-lg;
+  @include about-md-lg;
+  @include company-md-lg;
+  @include info-md-lg;
+  @include solution-md-lg;
+  @include services-md-lg;
+  @include programs-md-lg;
+  @include world-md-lg;
+  @include legacy-md-lg;
+  @include grant-md-lg;
+  @include projects-md-lg;
+  @include team-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 60px;
+    &.sm {
+      font-size: 60px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    &.xxlg {
+      font-size: 20px;
+    }
+    &.xlg {
+      font-size: 20px;
+    }
+    &.lg {
+      font-size: 18px;
+    }
+    &.md {
+      font-size: 18px;
+    }
+  }
+  .input {
+    &__outer {
+      margin: 7px;
+      width: calc(50% - 14px);
+    }
+  }
+  .button {
+    padding: 15px 32px;
+  }
+  .tab {
+    padding: 5px;
+    button {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 10px 12px;
+      min-width: 160px;
+    }
+  }
+  @include hero-sm-md;
+  @include solution-sm-md;
+  @include projects-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  h2 {
+    font-size: 56px;
+    &.sm {
+      font-size: 56px;
+    }
+  }
+  .input {
+    &__outer {
+      margin: 0 0 15px 0;
+      width: 100%;
+      max-width: unset;
+    }
+  }
+  @include hero-sm-md-extra;
+  @include solution-sm-md-extra;
+  @include services-sm-md-extra;
+  @include legacy-sm-md-extra;
+  @include team-sm-md-extra;
+  @include info-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    &.xxlg {
+      font-size: 18px;
+    }
+    &.xlg {
+      font-size: 18px;
+    }
+    &.lg {
+      font-size: 16px;
+    }
+  }
+  .divider {
+    height: 16px;
+    img {
+      display: none;
+      &.mob {
+        display: block;
+      }
+    }
+  }
+  .check {
+    width: 100%;
+    &__outer {
+      width: 100%;
+      margin-bottom: 20px;
+      & > P {
+        padding-left: 32px;
+        line-height: 28px;
+      }
+    }
+    &__box {
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      width: calc(100% - 32px);
+      line-height: 22px;
+    }
+  }
+  .modal {
+    padding: 16px;
+    &__inner {
+      padding: 56px 15px 30px;
+    }
+  }
+  .input {
+    &__outer {
+      p {
+        line-height: 28px;
+      }
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include about-xsm-sm;
+  @include info-xsm-sm;
+  @include programs-xsm-sm;
+  @include world-xsm-sm;
+  @include grant-xsm-sm;
+  @include projects-xsm-sm;
+  @include solution-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  .auto__container {
+    padding: 0 16px;
+  }
+  @include hero-xxsm-xsm;
+  @include team-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
